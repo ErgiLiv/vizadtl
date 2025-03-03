@@ -14,7 +14,7 @@ function Home() {
     if (visibleCount < sentences.length) {
       setVisibleCount(visibleCount + 1)
     } else {
-      navigate('/pictures')
+      navigate('/card')
     }
   }
   return (
