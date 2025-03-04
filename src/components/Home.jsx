@@ -6,15 +6,15 @@ function Home() {
     const [visibleCount, setVisibleCount] = useState(1)
     const navigate = useNavigate()
     const sentences = [
-    "Hi John Doe",
-    "I have something to show you:)"
+    "Oj Viza :)",
+    "Ke ca gjera interesante ktej"
   ]
 
   const handleClick = () => {
     if (visibleCount < sentences.length) {
       setVisibleCount(visibleCount + 1)
     } else {
-      navigate('/card')
+      navigate('/pictures')
     }
   }
   return (
@@ -29,7 +29,7 @@ function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.2 }}
-            className="text-4xl font-bold text-customBlue drop-shadow-lg"
+            className="text-4xl font-bold text-customBlue drop-shadow-lg bg-white bg-opacity-85 rounded-lg px-6 py-3 w-fit "
           >
             {sentence}
           </motion.p>

@@ -36,7 +36,7 @@ function Card() {
       <div id="card" className={`${cardClass}`} onClick={toggleCard}>     
         <div id="card-inside">
           <div className="wrap">
-            <p>Happy Birthday, John Doe!</p>
+            <p>Edhe 100 Ves!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
             <p>
               I hope you have a very blessed birthday!
@@ -47,13 +47,13 @@ function Card() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <p className="signed">Jane Doe</p>
+            <p className="signed">Ergi</p>
           </div>
         </div>
 
         <div id="card-front">
           <div className="wrap">
-            <h1>Happy Birthday!</h1>
+            <h1>Gezuar Ditelindjen!</h1>
           </div>
         </div>
     </div>
@@ -67,7 +67,7 @@ function Card() {
         transition={{duration: 1.2}}> 
         <Link to ='/cake'>
         <p className="-mt-[4rem] px-7 py-3 bg-customBlue text-white font-medium text-base rounded-full hover:bg-blue-600">
-            Next Page
+            Next
           </p>
         </Link>
             

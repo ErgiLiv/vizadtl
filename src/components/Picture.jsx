@@ -13,16 +13,30 @@ const images = [
 ];
 function Picture() {
   const [loadedImages, setLoadedImages] = useState(0);
+  const [swipedImages, setSwipedImages] = useState(0);
 
   const handleImageLoad = () => {
     setLoadedImages((prev) => prev + 1);
   };
+
+  const handleDragEnd = (_, info) => {
+    if (Math.abs(info.offset.x) > 100 || Math.abs(info.offset.y) > 100) {
+      setSwipedImages((prev) => prev + 1);
+    }
+  };
+
   const allImagesLoaded = loadedImages === images.length;
+  const allImagesSwiped = swipedImages === images.length;
+
   return (
     <SectionWrapper>
       <Link to="/card">
-        <p className="absolute text-4xl font-bold text-customBlue inset-0 flex justify-center items-center text-center transform rotate-6 cursor-pointer">
-          You're Getting Old! :P
+        <p className={`absolute text-4xl font-bold text-customBlue transform rotate-6 cursor-pointer 
+          ${allImagesSwiped ? 
+            'bg-white bg-opacity-90 rounded-lg px-6 py-5 w-full h-fit left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' : 
+            'inset-0 flex justify-center items-center text-center'
+          }`}>
+          Po plakesh Xio
         </p>
       </Link>
       {!allImagesLoaded && (
@@ -48,6 +62,7 @@ function Picture() {
             rotate: Math.random() * 20 - 10,
           }}
           drag
+          onDragEnd={handleDragEnd}
         >
           <img
             src={image}

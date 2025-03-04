@@ -102,13 +102,13 @@ function Cake() {
               </defs>
               <text fontSize="40" fill="white" textAnchor="middle">
                 <textPath href="#curve" startOffset="50%">
-                  Happy Birthday!
+                  Gezuar Ves!
                 </textPath>
               </text>
             </svg>
             <Link to="/present" className="flex justify-center items-center">
               <p className="absolute top-[30rem] xs:top-[36rem] s:top-[40rem] px-7 py-3 bg-customBlue text-white rounded-full hover:bg-blue-600 font-medium text-base text-center ">
-                Next Page
+                Next
               </p>
             </Link>
           </motion.div>
@@ -128,7 +128,7 @@ function Cake() {
                       }}
                       className="block -translate-x-[60px] translate-y-[105px] -rotate-[30deg] text-gray-200 text-xl "
                     >
-                      blow
+                      fry
                     </motion.div>
                     <motion.div
                       animate={{ opacity: [0, 0.25, 0] }}
@@ -139,7 +139,7 @@ function Cake() {
                       }}
                       className="block translate-x-10 translate-y-[80px] rotate-[30deg] text-gray-200 text-xl"
                     >
-                      blow
+                      fry
                     </motion.div>
                   </div>
                   <div>

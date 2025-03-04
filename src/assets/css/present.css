@@ -106,15 +106,7 @@ input#click {
 }
 
 #click:checked + .gift .raffle-1 {
-  transform: translateY(-110px) translateX(-160px);
-}
-
-#click:checked + .gift .raffle-2 {
-  transform: translateY(-200px) translateX(-10px);
-}
-
-#click:checked + .gift .raffle-3 {
-  transform: translateY(-300px) translateX(-150px);
+  transform: translateY(-150px) translateX(-90px);
 }
 
 #click:checked + .gift .entry div {
@@ -152,14 +144,15 @@ input#click {
 .ticket-text {
   display: block;
   font-family: "HelveticaNeue-CondensedBold", "Arial Narrow", Impact, "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  padding-top: 9px;
+  padding-top: 12px;
   text-transform: uppercase;
   color: #333;
   text-align: center;
   letter-spacing: 1px;
   white-space: pre-line;
+  line-height: 1.5;
 }
 
 /* raffles */
