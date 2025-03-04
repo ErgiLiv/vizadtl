@@ -4,9 +4,9 @@
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/rheinatamara/birthday_website_mobile.git
+   git clone https://github.com/ErgiLiv/vizadtl.git
    
-   cd birthday_website_mobile
+   cd vizadtl
    ```
 2. Install dependencies
    ```bash
@@ -16,7 +16,7 @@
     ```bash
     npm run dev
     ```
-4. Open your browser and navigate to http://localhost:5173/ (default Vite dev   server URL).
+4. Open your browser and navigate to http://localhost:5173/ (default Vite dev server URL).
 
 
 ### Build For Production
