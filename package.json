@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "publish": "git add . && git commit -m \"Update site\" && git push origin main && npm run deploy"
   },
   "dependencies": {
     "framer-motion": "^11.17.0",
