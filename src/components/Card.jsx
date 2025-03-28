@@ -37,15 +37,15 @@ function Card() {
         <div id="card-inside">
           <div className="wrap">
             <p>Edhe 100 Ves!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus dolore recusandae eveniet dicta. Corrupti.</p>
+            <p>Gezuar ditelindjen 20 vjecarja me gango ne bote. Shpresoj te te behet cdo enderr dhe deshire realitet.</p>
             <p>
-              I hope you have a very blessed birthday!
+              Jam me fat qe kam mundur te njoh nje person si ti. Faleminderit per cdo kujtim qe kemi ndare dhe do ndajme bashke. Je njeri fantastik dhe me zemer shume te madhe.
             </p>
             <p>
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cum.
+             Dua te te shikoj vetem te qeshur dhe te lumtur. Do me kesh gjithmone prane per cdo gje te mundshme.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Te dua shume fare &hearts;
             </p>
             <p className="signed">Ergi</p>
           </div>
